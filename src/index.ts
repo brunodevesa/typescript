@@ -1,0 +1,2 @@
+console.log("Typescript Basics");
+
