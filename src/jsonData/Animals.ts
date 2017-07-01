@@ -6,6 +6,7 @@ export class Animals {
         { name: 'koska', species: 'cat', age: 9 },
         { name: 'kot', species: 'cat', age: 1 },
         { name: 'ptitsa', species: 'bird', age: 5 }
+        
     ]
 
 }
