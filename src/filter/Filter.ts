@@ -58,5 +58,13 @@ export class FilterClass {
         }, 0)
     }
 
+    public getArrayOfNamesAndAges(animals: Animal[]) {
+        return animals.reduce((newArray:any, element:any) => {
+            newArray.push(element.name)
+            newArray.push(element.age)
+            return newArray;
+        }, [])
+    }
+
 
 }

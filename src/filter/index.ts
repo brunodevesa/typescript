@@ -41,3 +41,8 @@ console.log(ageArrayOfAllAnimals);
 let averageAgeOfAllAnimals = myFilterClass.averageAge(ageArrayOfAllAnimals)
 console.log('average age of all animals :')
 console.log(averageAgeOfAllAnimals);
+
+
+console.log('new Array of animals name and ages  :');
+let newArrayOfNameAndAge = myFilterClass.getArrayOfNamesAndAges(myAnimals);
+console.log(newArrayOfNameAndAge);
